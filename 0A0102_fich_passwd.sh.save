@@ -1,0 +1,8 @@
+e /etc/passwd
+#Autor: Ana Isabel Miguel Bello
+#Objetivo funcional: muestra ista de nombres  de usuarios
+
+#Objetivo didactico: primeros scripts
+#Key words: pipe, cut, sort, uniq, wc, comillas inversas
+#!/bin/bash
+who -a | cut -f1 -d" " | sort | uniq | echo "Hay `wc -w` usuarios conectados"
