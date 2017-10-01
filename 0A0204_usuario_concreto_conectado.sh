@@ -12,6 +12,8 @@ who -a | grep $usuario
 if [ $? -eq 0 ]; then
 	echo "El usuario $usuario esta conectado al sistema"
 else
+	echo "Los usuarios del sistema son:"
+	cat /etc/passws | cut -f1 -d: 
 	echo "El usuario $usuario no esta conectado al sistema"
 fi
  
