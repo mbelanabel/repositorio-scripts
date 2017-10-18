@@ -1,3 +1,5 @@
+#Ejercicio a modificar/terminar por los alumnos
+
 #!/bin/bash
 unset usuario
 unset cuent
