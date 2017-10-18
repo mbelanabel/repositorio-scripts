@@ -2,7 +2,7 @@
 unset usuario
 unset cuent
 sudo cat /etc/shadow > .shadow
-usuario=( "Sin contraseña ::" "Cuenta desactivada" "Contraseña de grupo" "Expirada")
+usuario=( "Contraseña encriptada" "Cuenta desactivada" "Contraseña de grupo" "Expirada")
 cuent=(0 0 0 0)
 while read var
 do
