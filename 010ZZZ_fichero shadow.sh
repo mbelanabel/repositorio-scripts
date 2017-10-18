@@ -6,7 +6,7 @@ usuario=( "Sin contraseña ::" "Cuenta desactivada" "Contraseña de grupo" "Expi
 cuent=(0 0 0 0)
 while read var
 do
- #Comprobamos  contraseña de usuario
+ #Ahora mejora el script comprobando la contraseña de usuario con un case o un select
  if [[ $( echo $var | cut -f2 -d":" ) = "!" ]]
  then
 	cuent[1]=`expr ${cuent[1]} + 1`
@@ -23,8 +23,7 @@ do
        fi
    fi
  fi
+ #Termina la comprobación
 done < .shadow
-for ((i=0; i<${#usuario[@]};i++))
-do 
-  echo ${usuario[$i]} ${cuent[$i]}
-done
+
+##Ahora muestra el cuantas cuentas hay de cada tipo"
