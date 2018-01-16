@@ -11,7 +11,7 @@ case $# in
        1 | 2)   if ls -l $1 > /dev/null 2>/dev/null
                 then
 
-                if [ -d $1]; then
+                if [ -d $1 ]; then
 	          echo $1 es un directorio
 		else
 	 	  tipo= `ls -l $1 | cut -c1`
@@ -32,7 +32,7 @@ case $# in
 			 ;;
 		  esac
 		fi
-		if [$# -eq 2]
+		if [ $# -eq 2 ]
 		then
 		 bash $0 $2
 		fi
