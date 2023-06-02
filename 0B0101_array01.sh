@@ -3,6 +3,7 @@
 #Objetivo funcional: Mostrar por pantalla el contenido de un array 
 #Objetivo didactico: declarar un array y recorrerlo consultando su contenido
 #Key words: array; declare; for-do-done; expr; comillas inversas
+
 #!/bin/bash
 clear
 contador=0
