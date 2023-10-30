@@ -3,6 +3,7 @@
 #Objetivo funcional: crear un fichero con un listado del contenido del directorio en el que se ejecuta el script
 #Objetivo didactico: primeros scripts con ordenes basicas, una de ellas con redireccionamiento y en background. Uso de parametros.
 #Key words: >> (redireccionamiento), & (background), pipe, parametros 
+
 #!/bin/bash
 echo Hoy es
 date
