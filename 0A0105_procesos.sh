@@ -3,6 +3,7 @@
 #Objetivo funcional: parar durante un tiempo determinado la ejecución del script
 #Objetivo didactico: introducir el comando sleep en shell-script
 #Key words: sleep; sort
+
 #!/bin/bash
 echo "Vamos a ver la orden sleep de gestión de procesos"
 echo "Paciencia... Vamos a dormir durante 40 segundos... cuenta hasta 40"
