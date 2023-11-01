@@ -3,6 +3,7 @@
 #Objetivo funcional:quitar un directorio del PATH 
 #Objetivo didactico: recorrer todos los directorios del PATH, para buscar el que introduce el usuario. Si lo encontramos, lo eliminamos del PATH.
 #Key words: while-do-done; variable auxiliar; comillas inversas; comparar cadenas de caracteres; let
+
 #!/bin/bash
 echo "Introduzca directorio"
 read varb
