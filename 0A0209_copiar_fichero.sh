@@ -12,10 +12,10 @@ then
 		fichero=$HOME/guardar
 		cp $1 $fichero
 	else
-		echo "Archivo no encontrado. Inténtelo otra vez"
+		echo "Archivo no encontrado. Inténtelo otra vez."
 	fi
 else
-	echo "Debe especificar como parámetro un nombre de archivo"
+	echo "Debe especificar como parámetro un nombre de archivo."
 fi
 cat $1
 
