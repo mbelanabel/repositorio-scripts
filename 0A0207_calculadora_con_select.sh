@@ -34,7 +34,7 @@ do
 		echo "Fin"
 		break
 	    else
-		echo "opcion erronea"
+		echo "Opción erronea."
 	  fi
 done
 
