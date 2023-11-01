@@ -3,6 +3,7 @@
 #Objetivo funcional: visualizar parametros
 #Objetivo didactico: diferenciar entre la salida $0 con los diferentes modos de ejecución (. y sh). contar el numero de parametros con $#, listar parametros con $*
 #Key words: $0, $#, $*
+
 #!/bin/bash
 echo "Lo que sigue es la salida del guión: $0"
 echo "Número total de argumentos de la línea de orden $#"
