@@ -1,6 +1,5 @@
 #Scripts: multiplicador
-#Autores: RicardoSegura DanielRodriguez
-#Revisador y corregido por Anabel
+#Autores: Ana Isabel Miguel
 #Objetivo: Multiplica todos los caracteres
 #Objetivo didactico:Hacer calculadoraf
 #Key words: while; if; 
