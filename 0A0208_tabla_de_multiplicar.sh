@@ -12,3 +12,4 @@ do
   echo "${n}x$i=$(($n*$i))"
 done
 
+
