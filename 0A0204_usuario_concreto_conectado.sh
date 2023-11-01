@@ -3,6 +3,7 @@
 #Objetivo funcional:Consultar si un usuario esta o no conectado al sistema
 #Objetivo didactico: introducir el nombre de un usuario, evaluar el resultado de la ejecución de una orden anterior
 #Key words: $?; read; grep
+
 #!/bin/bash
 echo "Introduzca el usuario que desea consultar"
 read usuario
