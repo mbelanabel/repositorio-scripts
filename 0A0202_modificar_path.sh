@@ -3,6 +3,7 @@
 #Objetivo funcional: añadir un directorio a la variable PATH
 #Objetivo didactico: modificar el contenido de una variable del sistema operativo, conservando el valor anterior. Evaluar si el contenido de una variable es un directorio.
 #Key words: -d; PATH=; $PATH
+
 #!/bin/bash
 echo "Introduzca el directorio a incluir en el path"
 read directorio
