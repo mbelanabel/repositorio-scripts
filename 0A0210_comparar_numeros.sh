@@ -5,7 +5,7 @@
 #Key words: -a; comillas inversas
 
 #!/bin/bash
-echo "introduzca tres números y mostraremos el mayor de ellos"
+echo "Introduzca tres números y mostraremos el mayor de ellos"
 read num1 num2 num3
 if [ "$num1" -gt "$num2" -a "$num1" -gt "$num3" ]
 then
