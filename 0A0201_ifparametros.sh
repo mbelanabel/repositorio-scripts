@@ -3,6 +3,7 @@
 #Objetivo funcional: saber si se han pasado parametros, también llamados argumentos.
 #Objetivo didactico: script que utiliza la estructura if-else
 #Key words: if-else; -gt;  $#
+
 #!/bin/bash
 if [ $# -gt 0 ]
 then
