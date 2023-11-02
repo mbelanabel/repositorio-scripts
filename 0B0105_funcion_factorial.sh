@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: calcular el factorial de un numero
 #Objetivo didactico: función factorial implementada con un while
-#Key words: function; while; -ge; expr
+#Key words: function; while; -ge; expr;
 
 #!/bin/bash
 
