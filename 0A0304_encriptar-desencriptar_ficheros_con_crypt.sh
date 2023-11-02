@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: Utilizar crypt para encriptar y/o desencriptar un fichero.
 #Objetivo didactico: script con un menu para realizar una función de utilidad de seguridad de ficheros.
-#Key words: crypt; ! -f;
+#Key words: crypt; ! -f; break
 
 	echo “Introduzca el nombre de un fichero”
 	read fich
