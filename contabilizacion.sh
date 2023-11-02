@@ -1,3 +1,6 @@
+#Script que contabiliza el numero de usuarios con la cuenta desactivada, expirada,...
+
+
 #!/bin/bash
 unset usuario
 unset cuent
