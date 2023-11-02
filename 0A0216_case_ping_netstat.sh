@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: comprobar conectividad y ver estado de puertos 
 #Objetivo didactico: menu con comandos de red
-#Key words: case; ping; netstat; read
+#Key words: case; ping; netstat; read; 
 
 #!/bin/bash
 	echo MENU
