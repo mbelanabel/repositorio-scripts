@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: empaquetar/desempaquetar y comprimir/descomprimir 2 ficheros
 #Objetivo didactico: redactar menu con comando tar
-#Key words: tar; case-in-esac
+#Key words: tar; case-in-esac; 
 
 
 #!/bin/bash
