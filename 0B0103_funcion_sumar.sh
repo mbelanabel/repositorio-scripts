@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: sumar dos numeros introducidos por teclado
 #Objetivo didactico: funcion, operación matemática.
-#Key words: function; variable local; expr; $?; return; read -p
+#Key words: function; variable local; expr; $?; return; read -p;
 
 #!/bin/bash
 clear
