@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: conocer el numero de argumentos en la línea de orden.
 #Objetivo didactico: evaluar numero de parametros.
-#Key words: if; -gt; $#
+#Key words: if; -gt; $#; -f
 
 #!/bin/bash
 if [ $# -gt 0 ]
