@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: conocer el mayor de tres numeros.
 #Objetivo didactico: analizar estructura de control, reflexionar sobre pseudocodigo.
-#Key words: -gt; read
+#Key words: -gt; read, if
 
 #!/bin/bash
 echo “Introduzca tres números y mostraremos el mayor de ellos”
