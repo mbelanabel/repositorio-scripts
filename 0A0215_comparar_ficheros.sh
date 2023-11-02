@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: comparar dos ficheros, si son distintos, renombrar uno de ellos.
 #Objetivo didactico: comparar ficheros.
-#Key words: diff; /dev/null; $0
+#Key words: diff; /dev/null; $0; read
 
 #!/bin/bash
 echo "comparador de ficheros"
