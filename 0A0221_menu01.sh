@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: Mostrar un menu sencillo
 #Objetivo didactico: Mostrar la sintaxis de un case
-#Key words: case-esac; $HOME
+#Key words: case-esac; $HOME; 
 
 #!/bin/bash
 echo "0 Salir"
