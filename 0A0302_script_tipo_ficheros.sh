@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: conocer el numero de argumentos en la línea de orden.
 #Objetivo didactico: evaluar numero de parametros.
-#Key words: /dev/null; 2>; 
+#Key words: /dev/null; 2>; bash
 
 #!/bin/bash
 case $# in
