@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: comparar 3 valores introducidos por teclado.
 #Objetivo didactico: comparar valores y operador AND
-#Key words: if-else-fi; -a
+#Key words: if-else-fi; -a, read
 
 #!/bin/bash
 echo -e "introduce valor 1 \c"; read var1
