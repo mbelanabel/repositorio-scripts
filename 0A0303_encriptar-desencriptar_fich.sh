@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: Utilizar gpg para encriptar y/o desencriptar un fichero.
 #Objetivo didactico: script con un menu para realizar una función de utilidad de seguridad de ficheros.
-#Key words: gpg;
+#Key words: gpg; case
 
 #!/bin/bash
 	echo MENU
