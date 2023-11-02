@@ -3,6 +3,7 @@
 #Objetivo funcional: listar los subdirectorios de un directorio y su tamaño.
 #Objetivo didactico: evaluar el tamaño en MB de cada subdirectorio de un directorio.
 #Key words: -z; du; 
+
 #!/bin/bash
 #Comprueba argumento
 if [ -z $1 ]; then
