@@ -2,7 +2,7 @@
 #Autor: Ana Isabel Miguel Bello
 #Objetivo funcional: evaluar fichero y directorio.
 #Objetivo didactico: trabajar con ficheros LINUX/UNIX
-#Key words: if; -d; -r
+#Key words: if; -d; -r; $var1; read
 
 #!/bin/bash
 echo "Introduce el nombre de un fichero UNIX/LINUX"
