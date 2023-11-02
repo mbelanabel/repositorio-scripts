@@ -18,7 +18,7 @@ case $# in
 		  case $tipo in
 		   -) echo "fichero ordinario: -"; echo " "
     		         ;;
-		   1) echo "enlace simbolico: l"; echo " "
+		   l) echo "enlace simbolico: l"; echo " "
 			 ;;
 		   b) echo "fichero de dispositivo por bloques: b"; echo " "
 			 ;;
