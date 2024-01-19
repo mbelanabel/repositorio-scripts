@@ -1,0 +1,53 @@
+#Script con pistas para hacer una agenda con un diccionario
+#Autor: Ana Isabel Miguel Bello
+#Objetivo funcional: mostrar telefonos de amigos
+#Objetivo didactico: primeros scripts con diccionarios
+#Key words: for, @, manejo de diccionario
+
+#!/bin/bash
+
+declare -A telefonos telefonos[Juan]='6000123' telefonos[Pedro]='61111456' telefonos[Andres]='62222789'
+
+
+echo "Mostramos la lista de los amigos"
+echo ${!telefonos[@]} 
+echo ${!telefonos[*]}
+
+echo "==========="
+echo "Mostramos el telefono de un usuario concreto"
+read amigo
+echo ${telefonos[$amigo]}
+
+
+echo "=============="
+echo "Mostramos los telefonos con @"
+echo ${telefonos[@]}
+echo "Mostramos los telefonos con :"
+echo ${telefonos[*]}
+
+
+echo "================"
+echo "Mostrar toda la información de nuevo"
+for i in ${!telefonos[@]} 
+do 
+  echo "El telefono de $i es ${telefonos[$i]}" 
+done
+
+echo "==============="
+telefonos+=([Alberto]=64444123 [Alvaro]=655555456)
+
+echo "================"
+echo "Mostrar toda la información de nuevo"
+for i in ${!telefonos[@]} 
+do 
+  echo "El telefono de $i es ${telefonos[$i]}" 
+done
+
+echo "==============="
+
+
+echo "Extraer varios valores"
+echo ${telefonos[@]:1:2}
+
+echo "Numero de elementos del diccionario"
+echo ${#telefonos[@]}
